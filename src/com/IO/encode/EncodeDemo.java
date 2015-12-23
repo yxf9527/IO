@@ -26,10 +26,6 @@ public class EncodeDemo {
 			//System.out.print(b);
 			System.out.print(Integer.toHexString(b & 0xff)+" ");
 		}
-		
-		
-		
-		
 	}
 	
 	
