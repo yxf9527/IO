@@ -9,7 +9,7 @@ public class EncodeDemo {
 	public static void main(String[] args) throws UnsupportedEncodingException {
 		
 		String str = "慕课ABC";
-		byte[] b1 = str.getBytes();//转化成字节序列    是此项目当前默认的编码  gbk
+		byte[] b1 = str.getBytes();//转化成字节序列    是此项目当前默认的编码  gbk  等于str.getBytes("gbk")
 		for (byte b : b1) {
 			//将字符串转化成byte数组输出
 //			System.out.print(b+" ");
