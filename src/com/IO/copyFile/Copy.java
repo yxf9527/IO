@@ -1,4 +1,4 @@
-package com.IO.RandomAccessFile;
+package com.IO.copyFile;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
