@@ -35,10 +35,9 @@ public class EncodeDemo {
 	 * */
 	@Test
 	public void byte2Hex(){
-		int a = 1234;
-		byte b = 122;
-		System.out.println(Integer.toHexString(a));//4d2
-		System.out.println(Integer.toHexString(b));//7a
+		byte a = -4;
+		
+		 
 	}
 	
 
