@@ -16,7 +16,7 @@ public class dataInOutputStreamDemo {
 		 * 构造DataOutputStream对象需要传递一个outputStream抽象类的对象参数
 		 * 以此知道 dataOutputStream是在FileOutputStream类的基础上做了修改
 		 * */
-		String path = "demo.dat";
+		String path = "files/demo.dat";
 		DataOutputStream dos = new DataOutputStream(new FileOutputStream(path));
 		
 		//DataOutputStream类提供特定的一次性写方法   避免了一次一个字节的写  但是其还是通过一次一个字节实现的

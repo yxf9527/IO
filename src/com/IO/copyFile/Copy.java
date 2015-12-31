@@ -10,9 +10,9 @@ public class Copy {
 	
 	public static void main(String[] args) throws IOException {
 		
-		RandomAccessFile raf = new RandomAccessFile("demo.dat", "rw");
+		RandomAccessFile raf = new RandomAccessFile("files/demo.dat", "rw");
 		
-		RandomAccessFile ra = new RandomAccessFile("copy.dat","rw");
+		RandomAccessFile ra = new RandomAccessFile("files/copy.dat","rw");
 		
 		byte[] a = new byte[(int)raf.length()];
 		raf.readFully(a);

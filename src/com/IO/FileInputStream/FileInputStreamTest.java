@@ -67,11 +67,11 @@ public class FileInputStreamTest {
 	
 	//测试  比较 单字节读取和批量读取的效率
 	public static void main(String[] args) throws IOException {
-		readByByte("test.txt");
+		readByByte("files/test.txt");
 		System.out.println("\n"+"--------------------------------------------");
-		readByByteGroup1("test.txt");
+		readByByteGroup1("files/test.txt");
 		System.out.println("\n"+"--------------------------------------------");
-		readByByteGroup2("test.txt");
+		readByByteGroup2("files/test.txt");
 	}
 
 }
