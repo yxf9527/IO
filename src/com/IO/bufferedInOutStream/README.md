@@ -1,0 +1,9 @@
+BufferedInputStream和BufferedOutputStream：
+如果把输入输出比作取水的话  
+Fileinputstream相当于一滴一滴水的移动到水桶
+DataINputstream相当于一瓢一瓢水的移动到水桶
+BufferedInputstream和Fileinputstream的移动方法一样  但是最大的区别是字节缓冲流会在这一瓢水移动到水桶前放进缓冲区，
+然后最后再移动到水桶中
+
+
+复制大文件时   速度问题：DataINputstream>BufferedInputstream>Fileinputstream
