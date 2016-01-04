@@ -1,0 +1,11 @@
+FileReader和FileWriter操作文件
+
+相比较与inputStreamReader和OutputStreamWriter的复杂构造对象的方法 （需要传递一个inputstream的类对象，经常是fileInputstream）
+构造方法直接传递一个File对象或者文件的路径即可
+
+如果项目的默认编码和FileReader/FileWriter处理的编码不一样    则需要使用inputstreamReader和OutputStreamWriter
+
+编码问题：
+	如果要复制的文件是gbk，而项目是utf-8，那么文件复制后会出现乱码，
+	避免出现乱码的话 使用其他方法inputstreamReader和OutputStreamWriter
+	因为FileReader/FileWriter的构造方法没有传递编码的处理参数
