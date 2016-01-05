@@ -1,4 +1,4 @@
-package com.IO.copyFile; 
+package com.IO.FileInOutputStream; 
 
 import java.io.File;
 import java.io.FileInputStream;

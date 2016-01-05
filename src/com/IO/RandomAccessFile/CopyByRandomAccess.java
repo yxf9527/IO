@@ -1,4 +1,4 @@
-package com.IO.copyFile;
+package com.IO.RandomAccessFile;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -6,7 +6,7 @@ import java.io.RandomAccessFile;
 /**
  * RandomAccessFile实现复制功能
  * */
-public class Copy {
+public class CopyByRandomAccess {
 	
 	public static void main(String[] args) throws IOException {
 		
