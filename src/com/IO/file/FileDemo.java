@@ -1,4 +1,4 @@
-package com.IO.file;
+package com.IO.File;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package com.IO.encode;
+package com.IO.Encode;
 
 import java.io.UnsupportedEncodingException;
 
